@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margine Padding Box</title>
+    <style>
+        .margin{
+            margin: 100px;
+            margin: 100px 100px;
+            margin: 100px 100px 100px;
+            margin: 100px 100px 100px 100px;
+            background-color: aqua;
+            color: black;
+        }
+.padding{
+    padding: 50px;
+    padding: 50px 50px;
+    padding: 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    background-color: bisque;
+    color: black;
+}
+div[class*=box]{
+width: 150px;
+height: 150px;
+padding: 30px;
+border: 3px solid brown;
+background: goldenrod;
+color: black;
+margin: 0 auto;
+}
+.border-box{
+    box-sizing: border-box;
+    
+}
+.content-box{
+    box-sizing: content-box;
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Margine Padding</h1>
+    <hr>
+    <div class="margin"> Lorem ipsum dolor sit, amet consectetur consectetur adipisicing elit. Ipsam, enim.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, nobis. </div>
+    <hr>
+    <div class="padding"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero fugit ducimus debitis, molestiae, accusamus amet quod tempore itaque dolorem adipisci odit id neque ex ipsum.</div>
+<hr>
+<div class="border-box">border-box</div>
+<hr>
+<div class="content-box">content-box</div>
+</body>
+</html>

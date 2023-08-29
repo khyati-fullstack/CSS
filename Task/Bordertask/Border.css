@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 57, 57);
+}
+.border{
+    grid-template-columns:  repeat(4 , 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    display: grid;
+    gap: 6px;
+}
+div[class*="box"]{
+    background-color: rgb(102, 230, 198);
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 80px;
+}
+.box1{
+    border: 10px solid rgb(244, 79, 45);
+}
+.box2{
+    border-bottom: 10px solid rgb(63, 114, 244);
+   
+}
+.box3{
+    border-left: 10px solid rgb(69, 218, 32);
+    
+}
+.box4{
+    border-top: 10px solid rgb(175, 88, 175);
+    
+}
+.box5{
+    border-right: 10px solid rgb(124, 149, 84);
+    
+}
+.box6{
+    border-radius: 20px ;
+    border:10px double blueviolet;
+}
+.box7{
+    border: 10px solid goldenrod;
+    border-top-left-radius: 20px;
+    
+}
+.box8{
+    border-bottom-left-radius: 20px;
+    border: 10px solid yellow;
+}
+.box9{
+    border-bottom-right-radius: 20px;
+    border: 10px solid green;
+}
+.box10{
+    border-top-right-radius: 20px;
+    border: 10px solid pink;
+}
+.box11{
+    border-start-start-radius: 20px;
+    border: 10px solid red;
+}
+.box12{
+    border-start-end-radius: 20px;
+    border: 10px solid rgb(4, 95, 107);
+}
+.box13{
+    border: 10px solid rgb(7, 159, 141);
+    border-top-color: rgb(17, 8, 27);
+}
+.box14{
+    border: 10px solid rgb(7, 159, 141);
+   border-top: 30px solid rgb(32, 24, 150);
+}
+.box15{
+    border: 10px solid rgb(7, 159, 141);
+    border-bottom:25px rgb(184, 31, 128) solid;
+}
+.box16{
+    border: 10px solid rgb(7, 159, 141);
+    border-left: 30px rgb(187, 115, 7) solid;
+}
+.box17{
+    border: 10px solid rgb(7, 159, 141);
+    border-right: 35px solid rgb(8, 49, 103);
+}
+.box18{
+    border: solid rgb(7, 159, 141);
+    border-width: 20px ;
+ 
+}
+.box19{
+    border:  solid rgb(7, 159, 141);
+    border-top-width: 25px ;
+}
+.box20{
+    border:  solid rgb(7, 159, 141);
+    border-bottom-width: 20px;
+}
+.box21{
+    border:  solid rgb(7, 159, 141);
+    border-left-width: 25px;
+}
+.box22{
+    border:  solid rgb(7, 159, 141);
+    border-right-width: 20px;
+}
+.box23{
+    border: 10px solid rgb(7, 159, 141);
+    border-style:  25px unset green; 
+}
+.box24{
+    border: 10px red;
+    border-style: 20px ;
+}
+.box25{
+    border: 10px solid rgb(7, 159, 141);
+    border-style:20px solid rgb(247, 247, 91);
+}
+.box26{
+    border: 10px solid rgb(7, 159, 141);
+    border-style:double ;
+}
+.box27{
+    border: 10px rgb(7, 159, 141);
+    border-style: groove;
+}
+.box28{
+    border: 10px  rgb(7, 159, 141);
+    border-style:  outset;
+}
+.box29{
+    border: 10px  rgb(7, 159, 141);
+    border-style:  inherit ;
+}
+.box30{ 
+    border: 10px  rgb(7, 159, 141);
+    border-block: dotted ;
+}
+.box31{
+    border: 10px solid rgb(7, 159, 141);
+    border-block-start:20px dashed red;
+}
+.box32{
+    border: 10px solid rgb(7, 159, 141);
+    border-block-end:10px dashed blue;
+
+}
+.box33{
+    border:solid rgb(7, 159, 141);
+    border-block-start-width: 20px; 
+}
+.box34{
+    border: 10px  rgb(7, 159, 141);
+    border-block-start-style:  dashed ;
+}
+.box35{
+    border: 10px  rgb(7, 159, 141);
+    border-block-end-style: ridge ;
+}
+.box36{
+    color: brown;
+    border: 50px solid;
+    border-image: url(../img/shari01.avif)250;
+    border-image-repeat: no-repeat;
+}
+.box37{
+    border: 10px solid rgb(7, 159, 141);
+  border-inline: 10px;
+  border-style: solid ;
+  color: cyan;
+}

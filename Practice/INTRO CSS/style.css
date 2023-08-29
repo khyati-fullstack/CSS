@@ -1,0 +1,15 @@
+.external{
+    background-color:burlywood;
+    color: black;
+    font-size: 40px;
+}
+li{
+    list-style-type: none;
+
+}
+p{
+    background-color: chocolate;
+    color: azure;
+    font-size: medium;
+}
+

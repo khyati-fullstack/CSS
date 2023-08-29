@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes selector</title>
+    <style>
+        div[class*=circle]
+        {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            border: 1px solid black;
+            color: aliceblue;
+        }
+        .circle-1{
+            background-color: teal;
+        }
+        .circle-2{
+            background-color: rgb(23, 128, 0);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Attribute Selector</h1>
+    <div class="circle-1">circle-1</div>
+    <div class="circle-2">circle-2</div>
+    
+</body>
+</html>

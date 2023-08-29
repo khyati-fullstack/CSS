@@ -1,0 +1,26 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+.container1 {
+    background-image: url(../Project/image/p2img1.png);
+}
+.box1 {
+border-radius: 36px;
+background-color: #333333;
+height: 35px;
+}
+
+.box1 ul {
+    display: flex;
+    /* justify-content: space-around; */
+    list-style: none;
+    font-size: 10px;
+    color: #ffffff;
+    font-family: "Montserrat";
+    /* gap: 2px;
+    margin: 0;
+    padding: 2px 2px 2px 2px; */
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudeo element</title>
+    <style>
+        h3{
+            background-color: gold;
+            color: lawngreen;
+            font-size: medium;
+        }
+        h3::after{
+            content: "~";
+        }
+        h3::before{
+            content: "!";
+        }
+        
+p::first-letter{
+    color: aqua;
+    font-size: 45px;
+}
+p::first-line{
+    color: rgb(14, 72, 219);
+    font-size: 30px;
+}
+p::selection{
+    color: rgb(178, 104, 14);
+    background-color: rgb(73, 205, 25);
+}
+    </style>
+</head>
+<body>
+    <h3>psudeo element</h3>
+    <p>A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s).</p>
+    
+</body>
+</html>
