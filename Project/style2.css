@@ -1,26 +1,121 @@
-*{
-    margin: 0 auto;
-    padding: 0 auto;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 .container1 {
-    background-image: url(../Project/image/p2img1.png);
+margin: 0 auto;
+padding: 30px 30px 70px 30px;
 }
-.box1 {
+
+header {
+background: url(../Project/image/p2img1.png) no-repeat center center/cover;
+height: 710px;
+}
+
+li {
+list-style-type: none;
+padding: 10px 40px 10px 40px;
+}
+
+a {
+text-decoration: none;
+font-size: 20px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+}
+
+.item1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
 border-radius: 36px;
 background-color: #333333;
 height: 35px;
 }
 
-.box1 ul {
-    display: flex;
-    /* justify-content: space-around; */
-    list-style: none;
-    font-size: 10px;
-    color: #ffffff;
-    font-family: "Montserrat";
-    /* gap: 2px;
-    margin: 0;
-    padding: 2px 2px 2px 2px; */
+h1 {
+padding: 100px 100px 10px 100px;
+font-size: 70px;
+text-transform: uppercase;
+color: #333333;
+font-weight: 700;
+font-family: "Unna";
+}
+
+h1+p {
+padding: 10px 100px 10px 100px;
+font-size: 35px;
+color: #333333;
+font-weight: 400;
+font-family: "Sacramento";
+}
+
+h1+p+p {
+padding: 10px 100px 10px 100px;
+font-size: 22px;
+color: #333333;
+font-weight: 500;
+font-family: "Montserrat";
+text-align: left;
+}
+
+h1+p+p+p+p {
+padding: 0px 100px 10px 50px;    
+font-size: 22px;
+color: #828182;
+font-weight: 700;
+font-family: "Unna";
+text-align: right;
+}
+
+h1+p+p+p {
+padding: 10px 100px 10px 100px; 
+}
+
+button {
+font-size: 18px;
+font-weight: 700;
+font-family: "Montserrat";    
+text-align: center;    
+border: none;
+width: 120px;
+height: 46px;
+border-radius: 23px;
+color: #ffffff;
+background-color: #e08e9c;
+}
+
+.tag {
+font-size: 18px;
+color: #333333;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;   
+padding: 10px 10px 10px 50px; 
+}
+
+.container2 {    
+background-color: #e08e9c;
+}
+
+.container2 h1 {
+font-size: 58px;
+letter-spacing: 1px;
+line-height: 67px;
+color: #f6f6f9;
+font-weight: 700;
+font-family: "Unna";
+text-align: center;
+}
+
+.container2 p {
+font-size: 71px;
+color: #f6f6f9;
+font-weight: 400;
+text-align: center;
+font-family: "Sacramento";
 }
