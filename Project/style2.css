@@ -120,13 +120,39 @@ font-family: "Sacramento";
 }
 .section2 {
     background-color: #f0f0f0;
+
 }
  .container3 {
     text-align: center;
  } 
- .Box {
+ .Box-1 {
     display: flex;
     justify-content: space-between;
  }
- .col-33 {
+ .col-33-A {
+    width: 200px;
+    height: 200px;
+    border-radius: 112px;
+    background-color: #efd0ca;
+    margin: 100px 40px 10px 40px;
+    padding: 10px 10px 10px 10px;
  }
+.Box-2 {
+    display: flex;
+    justify-content: space-between;
+}
+.col-33-B {
+    margin: 100px 40px 10px 40px;
+    padding: 10px 100px 10px 90px;
+    text-align: left;
+}
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.container4 img {
+    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+    margin: 40px 40px 40px 50px;
+}
