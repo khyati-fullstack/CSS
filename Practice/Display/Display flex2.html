@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Flex</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border: 1px solid black;
+      }
+      body {
+        border: 5px dashed rgb(1, 199, 123);
+      }
+      #section {
+        border: 5px dashed rgb(168, 213, 33);
+      }
+      .section-wrapper {
+        border: 5px dashed rgb(237, 87, 162);
+      }
+      .container {
+        width: 90%;
+        margin: 0 auto;
+        border: 5px dashed rgb(243, 97, 18);
+      }
+      .row {
+        border: 5px dashed slateblue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+      }
+      .col-33 {
+        border: 5px dashed violet;
+        width: 33.33%;
+      }
+      p{
+        border: 3px dashed yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="section">
+      <div class="section-wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-33">
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                Cum illo veniam doloribus repellendus molestias,
+                ducimus molestiae accusantium consequatur ut sapiente.</p>
+            </div>
+            <div class="col-33">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Quaerat delectus exercitationem asperiores voluptatem, ipsam doloribus.
+              </p>
+            </div>
+            <div class="col-33">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, 
+                ab labore. Provident nisi est fugiat id vitae et accusantium eius quis unde deleniti, 
+                autem accusamus explicabo, necessitatibus esse repudiandae aliquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

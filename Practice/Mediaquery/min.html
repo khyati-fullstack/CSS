@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>min media query</title>
+    <style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+     }   
+     h1 {
+        text-align: center;
+        font-size: 50px;
+     }
+     h1::after {
+        content: original;
+     }
+     body {
+        background: pink;
+        color: grey;
+     }
+     @media (min-width: 576px)
+     {
+        body {
+            background-color: aqua;
+        }
+        h1::after {
+            content: "576px";
+        }
+     }
+     @media (min-width: 768px)
+     {
+        body {
+            background-color: burlywood;
+        }
+        h1::after {
+            content: "768px";
+        }
+     }
+     @media (min-width: 992px)
+     {
+        body {
+            background-color: chartreuse;
+        }
+        h1::after {
+            content: "992px";
+        }
+     }
+     @media (min-width: 1200px)
+     {
+        body {
+            background-color: darkseagreen;
+        }
+        h1::after {
+            content: "1200px";
+        }
+     }
+     @media (min-width: 1400px)
+     {
+        body {
+            background-color: fuchsia;
+        }
+        h1::after {
+            content: "1400px";
+        }
+     }
+    </style>
+</head>
+<body>
+    <h1>Hello World</h1>
+</body>
+</html>
