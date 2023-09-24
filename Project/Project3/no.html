@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #header-wrapper{
+            background: linear-gradient(red,grey);
+            height: 100vh;
+            position: relative;
+        }
+        #header-wrapper1{
+            background: linear-gradient(green,grey);
+            height: 100vh;
+            position: relative;
+        }
+        #header-wrapper2{
+            background: linear-gradient(pink,grey);
+            height: 100vh;
+            position: relative;
+        }
+        .bars{
+            display: none;
+        }
+        nav,ul{
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav{
+            width: 90%;
+            margin: 0 auto;
+            padding: 30px 0;
+        }
+        nav ul li{
+            list-style: none;
+            margin-left: 50px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+        }
+        .logo h1{
+            font-size: 25px;
+            color: white;
+        }
+        input[type=search]{
+            outline: none;
+            padding: 5px;
+            width: 300px;
+            height: 30px;
+        }
+        input[type=search]::placeholder{
+            color:red;
+            text-transform: capitalize;
+        }
+        .center{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: absolute;
+            top: 50%;
+            flex-wrap: wrap;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 20px;
+            line-height: 30px;
+            color: white;
+            /* margin: 50px 0; */
+        }
+        .center-left{
+            flex-basis: 40%;
+        }
+        .center-right{
+            flex-basis: 40%;
+        }
+        @media  (min-width:768px) and (max-width:1200px) {
+            nav ul li{
+                display: none;
+            }
+            .bars{
+                display: block;
+            }
+        }
+        @media screen and (max-width:768px){
+            nav ul li{
+                display: none;
+            }
+            .bars{
+                display: block;
+            }
+            .center{
+                gap: 50px;
+            }
+            .center-left,.center-right{
+                flex-basis: 100%;
+                font-size: 18px;
+            }
+            input[type=search]{
+                display: none;
+            
+        }
+        }
+            
+    </style>
+</head>
+<body>
+    <header id="header-wrapper">
+        <nav>
+            <div class="logo">
+                <h1>Dell</h1>
+            </div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+            </ul>
+            <div class="bars">menu</div>
+            <div class="right">
+                <input type="search" placeholder="search">
+            </div>
+        </nav>
+        <div class="center">
+            <div class="center-left">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde neque molestiae obcaecati aliquam ipsum asperiores repellendus molestias, eos facilis reiciendis illum culpa vitae voluptatum cum, quaerat quis sequi. Veritatis quas assumenda repellendus incidunt? Magni fuga voluptates qui, eaque dolores repudiandae! Unde fugiat esse itaque magnam libero, nisi alias harum tenetur!</p></div>
+                <div class="center-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum! Dolorem ipsa eius voluptatem molestias, est odit ullam voluptas, aliquam asperiores voluptate, magni doloremque fuga iste sunt accusantium facilis cum sint explicabo. Totam corporis atque culpa magnam saepe! Neque, fuga suscipit distinctio sit assumenda similique vel saepe dolore ex repellat!</p>
+                </div>
+        </div>
+    </header>
+    <header id="header-wrapper1">
+        <nav>
+            <div class="logo">
+                <h1>Dell</h1>
+            </div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+            </ul>
+            <div class="bars">menu</div>
+            <div class="right">
+                <input type="search" placeholder="search">
+            </div>
+        </nav>
+        <div class="center">
+            <div class="center-left">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde neque molestiae obcaecati aliquam ipsum asperiores repellendus molestias, eos facilis reiciendis illum culpa vitae voluptatum cum, quaerat quis sequi. Veritatis quas assumenda repellendus incidunt? Magni fuga voluptates qui, eaque dolores repudiandae! Unde fugiat esse itaque magnam libero, nisi alias harum tenetur!</p></div>
+                <div class="center-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum! Dolorem ipsa eius voluptatem molestias, est odit ullam voluptas, aliquam asperiores voluptate, magni doloremque fuga iste sunt accusantium facilis cum sint explicabo. Totam corporis atque culpa magnam saepe! Neque, fuga suscipit distinctio sit assumenda similique vel saepe dolore ex repellat!</p>
+                </div>
+        </div>
+    </header>
+    <header id="header-wrapper2">
+        <nav>
+            <div class="logo">
+                <h1>Dell</h1>
+            </div>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+                <li><a href="#">home</a></li>
+            </ul>
+            <div class="bars">menu</div>
+            <div class="right">
+                <input type="search" placeholder="search">
+            </div>
+        </nav>
+        <div class="center">
+            <div class="center-left">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde neque molestiae obcaecati aliquam ipsum asperiores repellendus molestias, eos facilis reiciendis illum culpa vitae voluptatum cum, quaerat quis sequi. Veritatis quas assumenda repellendus incidunt? Magni fuga voluptates qui, eaque dolores repudiandae! Unde fugiat esse itaque magnam libero, nisi alias harum tenetur!</p></div>
+                <div class="center-right">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, cum! Dolorem ipsa eius voluptatem molestias, est odit ullam voluptas, aliquam asperiores voluptate, magni doloremque fuga iste sunt accusantium facilis cum sint explicabo. Totam corporis atque culpa magnam saepe! Neque, fuga suscipit distinctio sit assumenda similique vel saepe dolore ex repellat!</p>
+                </div>
+        </div>
+    </header>
+</body>
+</html>

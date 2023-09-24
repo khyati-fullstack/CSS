@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gardient</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradient In CSS</title>
+    <style>
+        body{
+        }
+      .linear-gradient {
+        height: 100px;
+        background: linear-gradient(0.25turn, purple, green, yellow, blue);
+      }
+      .radial-gradient {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 50%;
+        color: rgb(164, 7, 130);
+        background: linear-gradient(closest-side, rgb(177, 207, 9), rgb(23, 5, 166), rgb(248, 47, 171));
+        background: radial-gradient(circle at 100%, #eb0d0d, #2713db 50%, #08dd6f 75%, #c5e60c 75%);
+      }
+      .conic-gradient {
+        height: 100px;
+        width: 100px;
+        margin: 0 auto;
+        border-radius: 40%;
+        background: conic-gradient(rgb(8, 129, 204), rgb(236, 140, 111), rgb(248, 67, 242), rgb(221, 217, 5), rgb(248, 74, 74), rgb(81, 255, 0));
+      }
+      button{
+        padding: 10px 30px;
+        background-color: teal;
+        color: khaki;
+
+      }
+      button:hover{
+        padding: 10px 30px;
+        background: linear-gradient(rgb(39, 180, 37), rgb(255, 136, 0));
+        color: rgb(140, 83, 193);
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="linear-gradient">linear-gradient</div>
+    <hr />
+    <div class="radial-gradient">radial-gradient</div>
+    <hr />
+    <div class="conic-gradient">conic-gradient</div>
+    <hr>
+    <button>Button</button>
+  </body>
 </html>
