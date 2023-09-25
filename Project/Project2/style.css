@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #e9e7e7;
+}
+#header-wrapper {
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 50px;
+}
+nav ul li a {
+    font-size: 18px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: left;
+    text-decoration: none;
+    padding: 30px;
+}
+nav  button {
+    border-radius: 5px;
+    border: 2px solid #232323;
+    font-size: 18px;
+    background-color: white;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+    padding: 1px 15px;
+    margin: 50px 90px;
+}
+.container1 {
+    display: flex;
+    margin: 30px 60px;
+    padding-bottom: 70px;
+}
+.container1 h1 {
+    font-size: 78px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    padding: 0px 15px;
+}
+.container1 p {
+    font-size: 16px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    padding: 15px;
+}
+.container1 button {
+    border-radius: 5px;
+    background-color: #232323;
+    font-size: 21px;
+    color: #e9e7e7;
+    font-weight: 900;
+    font-family: "Lato";
+    text-align: center;
+    border: none;
+    margin:  20px;
+    padding: 5px 50px;
+}
+.container1 .row01 {
+    padding: 0px 30px;
+}
+#section-1 {
+}
+.container2 {
+    background-color: #232323;
+    color: #e9e7e7;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 100px;
+}
+.container2 h1 {
+    font-size: 80px;
+    font-weight: 700;
+    font-family: "Cardo";
+    margin: 0px 100px;
+    padding: 0px 100px;
+}
+.container2 p {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Lato";
+    margin: 0px 100px;
+    padding: 20px 100px ;
+}
+.container2 button {
+    font-size: 21px;
+    font-weight: 900;
+    font-family: "Lato";
+    border-radius: 5px;
+    background-color: #232323;
+    color: #e9e7e7;
+    border: 3px solid #e9e7e7;
+    margin: 15px 20px;
+    padding: 10px 40px;
+}
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 80px 35px 100px 60px;
+}
+.imgbox h1 {
+    font-size: 36px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    margin-right: 40px;
+    padding: 20px 70px 0px 0px;
+}
+.imgbox p {
+    font-size: 16px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    padding: 20px 40px 0px 0px;
+}
+.container4 {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.container4 i {
+    font-size: 70px;
+    padding: 100px 0px 30px;
+}
+.container4 h1 {
+    font-size: 90px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    margin: 10px 100px;
+    padding: 20px 100px;
+}
+.container4 p{
+    font-size: 22px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    padding-bottom: 100px;
+}
+.container5 {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    padding: 100px 50px;
+}
+.container5 .box1{
+    padding: 100px 15px;
+}
+.container5 .box2 {
+    padding: 100px 15px;
+}
+ .container5 .text {
+    display: flex;
+}
+.container5 .text  h1 {
+    font-size: 36px;
+    text-decoration: underline;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    padding: 70px 0px 0px 10px;
+}
+.container5 .text  p {
+    font-size: 14px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    padding: 80px 0px;
+}
+.container5  i {
+    text-align: end;
+    font-size: 100px;
+}
+.container6 {
+    display: flex;
+    background-color: #232323; 
+    padding: 100px 0px 70px 40px;   
+}
+.text1 {
+    padding-top: 80px;
+}
+.container6 h1 {
+    font-size: 55px;
+    color: #e9e7e7;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+.container6 h2 {
+    font-size: 25px;
+    color: #e9e7e7;
+    font-weight: 900;
+    font-family: "Lato";
+    padding: 15px 0px;
+}
+.container6 p{
+    font-size: 15px;
+    color: #e9e7e7;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    padding: 0px 50px 45px 0px;
+}
+.container7 {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 50px;
+}
+.container7 h1 {
+    font-size: 81px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    padding: 0px 10px 70px 0px;
+}
+.container7 .box6 {
+    margin: 50px 80px 0px 0px;
+}
+.container7 p{
+    font-size: 17px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+    padding: 20px 0px 10px 20px;
+}
+.container7 i {
+    padding-left: 100px;
+}
+.container8 {
+    text-align: center;
+    padding: 100px 10px;
+    position: relative;
+}
+.container8 p{
+    font-size: 90px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+    margin: 10px 100px;
+    padding: 10px 100px;
+}
+.container8 .box7 {
+    display: flex;
+    padding: 10px 60px;
+    /* justify-content: space-between; */
+}
+.container8 .box7 .box01 {
+    border-radius: 10px;
+    background-color: #d9d9d9;
+    border: 3px solid #232323;
+    margin: 10px;
+    padding: 30px 35px;
+}
+.container8 .box7 i{
+    font-size: 100px;
+    padding: 50px;
+}
+.container8 .box7 h1 {
+    font-size: 25px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+    padding: 5px 0px;
+}
+.container8 .box7 p {
+    font-size: 15px;
+    color: #6d6d6d;
+    font-weight: 400;
+    font-family: "Lato";
+    margin: 0 auto;
+    padding: 5px 0px 30px;
+}
+.container8 span {
+    border-radius: 10px;
+    background-color: #e9e7e7;
+    border: 3px solid #232323;
+    padding: 10px 20px;
+    position: absolute;
+}
+.container8 .arrow-left {
+    bottom: 300px;
+    left: 50px;
+}
+.container8 .arrow-right {
+    bottom: 300px;
+    right: 50px;
+}
+.container9 {
+    display: flex;
+    justify-content: space-around;
+}
+.container9 h1 {
+    font-size: 81px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+.container9 .form{
+}
+.container9 .form input {
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 3px solid #232323;
+    margin: 10px;
+}
+.container9 .id {
+    width: 454px;
+    height: 58px;
+}
+.container9 .id1 {
+    width: 454px;
+    height: 223px;
+    padding: 100px 10px;
+}
+.container9 button{
+    width: 454px;
+    height: 66px;
+    border: none;
+    border-radius: 5px;
+    background-color: #232323;
+    font-size: 25px;
+    color: #e9e7e7;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: center;
+    margin: 10px;
+}
+.container10 {
+    background-color: #c4c4c4;
+    display: flex;
+}
+.info {
+    display: flex;
+}
+.container10  h1 {
+    font-size: 63px;
+    color: #232323;
+    font-weight: 700;
+    font-family: "Cardo";
+}
+.container10 .info ul {
+    list-style: none;
+}
+.container10 .info ul a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #232323;
+    font-weight: 400;
+    font-family: "Lato";
+    text-align: left;
+
+}
+.container10 .info ul li{
+}
+
+.container10 h3{
+    font-size: 25px;
+    color: #232323;
+    font-weight: 900;
+    font-family: "Lato";
+}
