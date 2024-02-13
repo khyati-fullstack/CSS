@@ -1,0 +1,71 @@
+
+@media screen and (max-width: 1400px) {
+}
+    @media screen and (max-width: 1200px) {
+
+    .content3 .sec3-box{
+        margin: 10px 30px;
+    }
+    .container4 img{
+        width: 100%;
+    }
+    .container5 .sec5-box1{
+        padding: 30px 0px;
+        align-self: center;
+    }
+
+    .container5 .sec5-box2{
+        padding: 0px 30px;
+        width: 100%;
+        align-self: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    nav ul li, nav button{
+        display: none;
+    }
+    nav .user ,.bag{
+        display: none;
+    }
+    .sec1-box1{
+        padding-top: 50px;
+    }
+    .sec1-box2{
+        padding-top: 50px;
+        width: 100%;
+    }
+    .container6 .sec6-img , 
+    .container7 .sec7-img , 
+    .container8 .sec8-img {
+        margin: 30px 0px;
+    }
+    .container6 .sec6-content, 
+    .container7 .sec7-content, 
+    .container8 .sec8-content{
+        text-align: center;
+        /* padding: 10px 0px; */
+    }
+
+    .container9 input{
+        /* padding: 0px 10px; */
+        width: 100%;
+    }
+    .footercontainer1{
+        text-align: center;
+    }
+    .footercontainer2{
+        align-content: center;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .container2 .sec2{
+        text-align: center;
+        margin: 0px 70px;
+        padding: 10px;
+    }
+
+}
+@media screen and (max-width: 576px) {
+
+}

@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #e2ded2;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    flex: wrap;
+    padding: 10px 20px;
+    background-color: #c87e6b;
+}
+nav img{
+    align-self: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+    padding: 13px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #e7e4db;
+    font-weight: 800;
+    font-family: "Montserrat";
+    text-align: center;
+}
+nav a:hover{
+    color: black;
+}
+nav button{
+    border-radius: 24px;
+    background-color: #c87e6b;
+    border: 2px solid #e9e5da;
+    color: white;
+    padding: 0px 20px;
+}
+nav .nav-icon i{
+    padding: 13px 10px;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.container1 .sec1-box1{
+    align-self: center;
+    text-align: center;
+}
+.sec1-box1 h1{
+    font-size: 58px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.sec1-box1 h5{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+    padding: 10px 0px;
+}
+.sec1-box1 p{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    padding-bottom: 20px;
+}
+.sec1-box1 button{
+    border-radius: 24px;
+    background-color: #787878;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 50px;
+}
+.sec1-box1 a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+}
+.sec1-box2 img{
+    width: 125%;
+    height: 120vh;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+    background-color: #765a33;
+}
+.container2 .sec2 h2{
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.container2 .sec2 h6{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+}
+
+.container3{
+    text-align: center;
+    padding: 60px 0px;
+}
+.container3 h1{
+    font-size: 58px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.container3 p{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+}
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.content3 .sec3-box{
+    filter: drop-shadow(0px 7px 9px rgba(0,0,0,0.19));
+    background-color: #e6e3da;
+}
+.content3 .sec3-box .item-3{
+    margin:10px 30px;
+    align-self: center;
+}
+.content3 .sec3-box .item-3 h1{
+    font-size: 29px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: left;
+    padding-top: 10px;
+}
+.content3 .sec3-box .item-3 p{ 
+    font-size: 14px;
+    color: #765a33;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px 0px 10px;
+    font-family: "Montserrat Alternates";
+}
+.content3 .sec3-box a{
+    text-decoration: none;
+    border-radius: 12px;
+    background-color: #454545;
+    color: white;
+    padding: 5px 10px;
+}
+.contenticon{
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.contenticon .lt{
+    padding: 8px 10px;
+    border-radius: 24px;
+    background-color: #bcbcbc;
+}
+.contenticon .gt{
+    padding: 8px 10px;
+    border-radius: 24px;
+    background-color: #454545;
+}
+
+.container4 {
+    margin: 50px 0px;
+    text-align: center;
+}
+.container4 h1 {
+    font-size: 58px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.container4 p{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    padding: 10px 0px 60px;
+}
+
+.container5{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #dbc06e;
+    text-align: center;
+}
+.container5 .sec5-box1{
+    margin: 0 auto;
+    align-self: center;
+}
+.container5 .sec5-box1 label{
+    border-radius: 22px;
+    background-color: #424242;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: #e7e4db;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    padding: 5px 30px;
+}
+.container5 .sec5-box1 h3{
+    font-size: 164px;
+    color: #424242;
+    font-weight: 900;
+    font-family: "Montserrat Alternates";
+}
+.container5 .sec5-box1 p{
+    font-size: 29px;
+    color: #424242;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+}
+.container5 .sec5-box2 img{
+    width: 100%;
+    height: 392px;
+}
+
+.container6, .container7, .container8
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.container6 .sec6-img{
+    background: url(../Project3-flower/images/img8.png)no-repeat center center/cover;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-color: #c87e6b;
+    height: 300px;
+    width: 450px;
+    align-self: center;
+}
+.container7 .sec7-img{
+    background: url(../Project3-flower/images/img9.png)no-repeat center center/cover;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-color: #c87e6b;
+    height: 300px;
+    width: 450px;
+    align-self: center;
+}
+.container8 .sec8-img{
+    background: url(../Project3-flower/images/img10.png)no-repeat center center/cover;
+    background-attachment: fixed;
+    background-attachment: scroll;
+    background-color: #c87e6b;
+    height: 300px;
+    width: 450px;
+    align-self: center;
+}
+.container6 .sec6-content, 
+.container7 .sec7-content, 
+.container8 .sec8-content{
+    /* height: 300px; */
+    /* width: 450px; */
+    padding: 60px 0px;
+    align-self: center;
+}
+.container6 .sec6-content h5, 
+.container7 .sec7-content h5,
+.container8 .sec8-content h5{
+    font-size: 58px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.container6 .sec6-content p,
+.container7 .sec7-content p,
+.container8 .sec8-content p{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    padding: 10px 0px 20px;
+}
+.container6 .sec6-content a,
+.container7 .sec7-content a,
+.container8 .sec8-content a{
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: #454545;
+    font-size: 15px;
+    color: #e6e3da;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+}
+
+.container9{
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.container9 h1{
+    font-size: 58px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.container9 p{
+    font-size: 25px;
+    color: #484a4b;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+}
+.container9 input{
+    width: 70%;
+    margin-top: 8px;
+    padding-bottom: 30px;
+    font-display: top;
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+    font-size: 18px;
+    color: #bdbdbd;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+}
+.container9 .msg{
+    padding-bottom: 100px;
+}
+.container9 button{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    border-radius: 25px;
+    background-color: #c87e6b;
+    border: none;
+    margin: 20px 0px;
+    padding: 5px 10px;
+}
+
+#footersection{
+    /* height: 400px; */
+    background-color: #424242;
+    color: #ffffff;
+}
+.footercontainer1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footercontainer1 .ft-itembox h5 a{
+    text-decoration: none;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+}
+.footercontainer1 .ft-itembox h5 {
+    padding: 10px 0px;
+}
+.footercontainer1 .ft-itembox h6 a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+}
+.footercontainer1 .ft-itembox h6{
+    padding-top: 10px;
+}
+.footercontainer2{
+    display: flex;
+    justify-content: end;
+    padding: 40px 0px;
+}
+.footercontainer2 h1{
+    padding: 0px 10px;
+}
+.footercontainer2 i{
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 24px;
+    border: 3px solid #e7e4da;
+}

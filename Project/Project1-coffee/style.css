@@ -1,0 +1,385 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+   width: 100%;
+}
+nav {
+    background-color: #b13941;
+}
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center; 
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: right;
+}
+.container {
+    background: url(../Project1-coffee/image/backgroundimg.png)no-repeat center center/cover;
+    height: 140vh;
+}
+.container h1 {
+font-size: 92px;
+color: #feedda;
+font-weight: 400;
+font-family: "Yeseva One";
+text-align: center;
+padding-top: 60px;
+}
+.container p {
+font-size: 20px;
+color: #fefefe;
+font-weight: 400;
+font-family: "PT Serif";
+text-align: center;
+padding-top: 80px;
+}
+.container button {
+font-size: 20px;
+color: #fefefe;
+width: 174px;
+height: 54px;
+margin: 0 auto;
+text-align: center;
+background-color: #b13941;
+border: none;
+}
+.container1 {
+    background-color: #b13941;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+.imglogo2 {
+    width: 20%;
+}
+.content1 {
+    align-self: center;
+}
+.container1 h5 {
+    font-size: 25px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-bottom: 20px;
+}
+.container1 h2 {
+    font-size: 50px;
+    color: #feedda;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-bottom: 20px;
+}  
+.container1 p {
+    font-size: 15px;
+    color: #feedda;
+    font-family: "PT Serif";
+    text-align: left;
+    padding-bottom: 30px;
+}
+.container1 button {
+    background-color: #feedda;
+    font-size: 18px;
+    color: #b13941;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    border: none;
+    width: 175px;
+    height: 40px;
+} 
+
+.container2 {
+    display: flex;
+    justify-content: unset;
+    background-color: #f8eed3;
+    gap: 70px;
+} 
+    
+.content2 {
+    align-self: center;
+}
+.container2 .content2 h3 {
+    font-size: 80px;
+    color: #000000;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    padding-bottom: 70px;
+}
+.container2 .content2 p {
+    font-size: 20px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    padding-bottom: 70px;
+}
+.container2 .tag1 {
+    color: red;
+    text-decoration: underline;
+}
+.container3 {
+    background-color: #b13941;
+    padding: 50px 0px;
+    text-align: center
+}
+.container3 h1 {
+    text-align: center;
+    color: #f8eed3;
+    font-size: 60px;
+    padding: 20px 0px;
+}
+.container3 p {
+    color: #f8eed3;
+    font-size: 20px;
+}
+.imgbox {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 40px 0px;
+}
+.container3 .imgbox img{
+    width: 190px;
+    height: 250px;
+    background-color: #e5e5e5;
+}
+.container3 .box1 {
+    display: flex;
+    gap: 30px;
+    width: 390px;
+    height: 250px;
+    background-color: #ffffff;
+}
+.container3 .item1{
+    align-self: center;
+    text-align: left;
+}
+.container3 .box1 h3{
+    font-size: 33px;
+    color: #010101;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.container3 .box1 p {
+    font-size: 10px;
+    color: #575757;
+    font-weight: 400;
+    font-family: "PT Serif";
+    padding: 20px 0px;
+}
+.container3  button{
+    background-color: #b13941;
+    color: #fefefe;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.container4 {
+    background-color: #f8eed3;
+    padding: 40px 0px;
+}
+.container4 h1{
+    font-size: 58px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: center;
+    padding: 10px 0px;
+}
+.container4 p{
+    font-size: 21px;
+    color: #b13941;
+    font-weight: 400;
+    font-family: "PT Serif";
+    text-align: center;
+    padding: 10px 0px 30px;
+}
+.container4 .content4 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.container4 .box2{
+    background-color: #ffffff;
+    text-align: center;
+}
+.container4 .content4 p {
+    font-size: 17px;
+    color: #555555;
+    font-weight: 400;
+    font-family: "PT Serif";
+    padding-top: 60px;
+}
+.content4 button {
+    background-color: #b13941;
+    color: #fefefe;
+    border: none;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 10px 30px;
+}
+
+
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #b13941;
+    padding: 40px 0px;
+}
+.container5 img{
+    width: 110%;
+    height: 400px;
+}
+.container5 .content5 {
+    align-self: center;
+}
+.content5 h1 {
+    font-size: 50px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "Yeseva One";
+}
+.content5 p {
+    font-size: 16px;
+    color: #f8eed3;
+    font-weight: 400;
+    font-family: "PT Serif";
+    padding: 30px 0px 10px;
+}
+
+.container6 {
+    background-color: #ffffff;
+    display: flex;
+}
+.content6 {
+    margin: 0 auto;
+    align-self: center;
+}
+.content6 h1 {
+    font-size: 58px;
+    color: #852128;
+    font-weight: 400;
+    font-family: "Yeseva One";
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.content6 input {
+    background-color: #efefef;
+    border: 1.5px solid #b0b0b0;
+    width: 450px;
+    height: 60px;
+    margin-bottom:30px;
+}
+.container6 .msg {
+    padding: 10px 10px 100px;
+}
+.container6 .msg1 {
+    border: none;
+    background-color: #b13941;
+    font-size: 25px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "PT Serif";
+    text-align: center;
+    width: 200px;
+}
+
+
+
+.container7 {
+    background-color: #b13941;
+    display: flex;
+    justify-content: space-around;
+}
+.container7 .tagbox{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 150px;
+    height: 200px;
+}
+.container7 .tagbox a {
+    font-size: 15px;
+    color: #f8eed3;
+    font-weight: 700;
+    font-family: "EB Garamond";
+}
+/* .container8 .A1 {
+    margin:  30px 20px 20px 30px;
+    padding: 10px 1px 20px 1px;
+} */
+/* .container8 .a2 {
+    margin: 20px;
+    padding: 10px;
+} */
+/* .container8 .a3 {
+    margin: 20px;
+    padding: 10px; 
+    color: #f8eed3; 
+} */
+/* .container8 .a4 {
+    margin: 20px;
+    padding: 10px; 
+    color: #f8eed3;
+} */
+/* /* /* .container8 .a5 {
+    margin: 20px;
+    padding: 10px;
+    color: #f8eed3; 
+} */
+/* .container8 .A6 {
+    margin: 20px;
+    padding: 10px;
+    color: #f8eed3;
+} */ 
+/* .container8 .Aa2 {
+    padding: 10px 10px 35px 10px;
+    color: #f8eed3;
+} */ 
+
+/* .container8 .Ab2 {
+    color: #f8eed3;
+} */
+
+/* .container8 .Ac2 {
+    margin: 2px 2px 2px 2px;
+    padding: 35px 1px 20px 1px;
+    color: #f8eed3;
+} */
+/* .container8 .Aa3 {
+    margin: 2px 2px 2px 2px;
+    padding: 5px 20px 5px 60px;
+} */
+/* .container8 .Aa4 {
+    margin: 2px 2px 2px 2px;
+    padding: 5px 10px 5px 10px; 
+} */
+
+/* .container8 .Aa5 {
+    margin: 2px 2px 2px 2px;
+    padding: 5px 10px 5px 10px; 
+} */
+/* .container8 .Ab6 {
+    padding: 5px 5px 5px 5px;
+} */
+/* .icon {
+    padding: 25px 5px 5px 5px;
+
+} */
+/* .icon i{
+padding: 05px 5px 5px 5px;
+margin: 10px 10px 10px 10px;
+background-color: #f8eed3;
+color: #b13941;
+} */
