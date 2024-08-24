@@ -46,6 +46,7 @@ nav button{
     padding: 0px 20px;
 }
 nav .nav-icon i{
+    font-size: 15px;
     padding: 13px 10px;
     color: white;
 }
@@ -252,7 +253,7 @@ nav .nav-icon i{
     flex-wrap: wrap;
 }
 .container6 .sec6-img{
-    background: url(../Project3-flower/images/img8.png)no-repeat center center/cover;
+    background: url(../Project2-flower/images/img8.png)no-repeat center center/cover;
     background-attachment: fixed;
     background-attachment: scroll;
     background-color: #c87e6b;
@@ -261,7 +262,7 @@ nav .nav-icon i{
     align-self: center;
 }
 .container7 .sec7-img{
-    background: url(../Project3-flower/images/img9.png)no-repeat center center/cover;
+    background: url(../Project2-flower/images/img9.png)no-repeat center center/cover;
     background-attachment: fixed;
     background-attachment: scroll;
     background-color: #c87e6b;
@@ -270,7 +271,7 @@ nav .nav-icon i{
     align-self: center;
 }
 .container8 .sec8-img{
-    background: url(../Project3-flower/images/img10.png)no-repeat center center/cover;
+    background: url(../Project2-flower/images/img10.png)no-repeat center center/cover;
     background-attachment: fixed;
     background-attachment: scroll;
     background-color: #c87e6b;

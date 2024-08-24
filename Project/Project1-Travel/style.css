@@ -313,6 +313,7 @@ nav  button {
 .container9 {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 80px;
 }
 .container9 h1 {
     font-size: 80px;
