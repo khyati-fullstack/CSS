@@ -4,7 +4,7 @@
     @media screen and (max-width: 1200px) {
 
     .content3 .sec3-box{
-        margin: 10px 30px;
+        margin: 10px 20px;
     }
     .container4 img{
         width: 100%;
@@ -34,6 +34,7 @@
         padding-top: 50px;
         width: 100%;
     }
+ 
     .container6 .sec6-img , 
     .container7 .sec7-img , 
     .container8 .sec8-img {
@@ -67,5 +68,9 @@
 
 }
 @media screen and (max-width: 576px) {
+    body {
+    margin: 0;
+    padding: 0;
+}
 
 }

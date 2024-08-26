@@ -146,6 +146,10 @@ nav .nav-icon i{
     filter: drop-shadow(0px 7px 9px rgba(0,0,0,0.19));
     background-color: #e6e3da;
 }
+.content3 .sec3-box .imgbox-3 img{
+    width: 100%;
+    height: 200px;
+}
 .content3 .sec3-box .item-3{
     margin:10px 30px;
     align-self: center;
@@ -190,6 +194,7 @@ nav .nav-icon i{
 }
 
 .container4 {
+    
     margin: 50px 0px;
     text-align: center;
 }
@@ -207,7 +212,10 @@ nav .nav-icon i{
     text-align: center;
     padding: 10px 0px 60px;
 }
-
+/* .container4 img{
+    width: 1059px;
+height: 621px;
+} */
 .container5{
     display: flex;
     justify-content: space-between;
@@ -216,6 +224,7 @@ nav .nav-icon i{
     text-align: center;
 }
 .container5 .sec5-box1{
+    width: 50%;
     margin: 0 auto;
     align-self: center;
 }
@@ -241,7 +250,7 @@ nav .nav-icon i{
     font-weight: 600;
     font-family: "Montserrat Alternates";
 }
-.container5 .sec5-box2 img{
+.container5 img{
     width: 100%;
     height: 392px;
 }
@@ -253,16 +262,16 @@ nav .nav-icon i{
     flex-wrap: wrap;
 }
 .container6 .sec6-img{
-    background: url(../Project2-flower/images/img8.png)no-repeat center center/cover;
-    background-attachment: fixed;
-    background-attachment: scroll;
+    background: url(https://i.pinimg.com/564x/0b/9c/a5/0b9ca5e2d27b3d83091ea76d223af000.jpg)no-repeat center center/cover;
+    /* background-attachment: fixed; */
+    /* background-attachment: scroll; */
     background-color: #c87e6b;
-    height: 300px;
+    height: 350px;
     width: 450px;
     align-self: center;
 }
 .container7 .sec7-img{
-    background: url(../Project2-flower/images/img9.png)no-repeat center center/cover;
+    background: url(https://i.pinimg.com/564x/c7/18/4a/c7184af6cd88094182255dcde5cc303a.jpg)no-repeat center center/cover;
     background-attachment: fixed;
     background-attachment: scroll;
     background-color: #c87e6b;
@@ -271,7 +280,7 @@ nav .nav-icon i{
     align-self: center;
 }
 .container8 .sec8-img{
-    background: url(../Project2-flower/images/img10.png)no-repeat center center/cover;
+    background: url(https://i.pinimg.com/564x/62/b1/9b/62b19b288995d1371ccd19d775cce10e.jpg)no-repeat center center/cover;
     background-attachment: fixed;
     background-attachment: scroll;
     background-color: #c87e6b;
